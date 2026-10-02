@@ -15,6 +15,7 @@ export const stats = [
   { value: '1,000+', label: 'Users on platforms supported' },
   { value: 'M.S.', label: 'Cybersecurity' },
   { value: 'Secret', label: 'Security clearance' },
+  { value: 'Bilingual', label: 'English and Spanish' },
 ]
 
 export const experience = [
