@@ -12,7 +12,7 @@ I'm looking for my next role in IT and cybersecurity. A resume can only say so m
 
 ## What's on the site
 
-- **Overview:** who I am, what I do, and some key numbers, including my Secret security clearance
+- **Overview:** who I am, what I do, and some key numbers, including my Secret security clearance and that I'm bilingual in Spanish
 - **Skills:** cybersecurity and compliance (RMF/ATO, NIST, OWASP), identity and access management, programming, cloud and DevOps, databases and reporting, and program management
 - **Experience:** my most recent roles and what I accomplished in each
 - **Education and certifications:** M.S. in Cybersecurity, B.S. in Information Systems, and Google AI Fundamentals
@@ -28,9 +28,19 @@ I'm looking for my next role in IT and cybersecurity. A resume can only say so m
 ## Design and security choices
 
 - **Simple and focused.** Two main colors, black and blue, with a layout that's easy to scan.
-- **Accessible.** Semantic HTML, keyboard-visible focus states, and readable contrast.
 - **Hardened by default.** Coming from a security background, I set baseline HTTP security headers (`X-Content-Type-Options`, `Referrer-Policy`, `Strict-Transport-Security`, and others) in `next.config.mjs`.
 - **One source of truth.** All resume content lives in `lib/resume.ts`, so updating the site means editing one file.
+
+## Built with accessibility in mind
+
+I built this site so that people with disabilities can use it too, including people with low vision or color blindness and people who use a keyboard or screen reader instead of a mouse.
+
+- **Readable color contrast.** I checked the black and blue palette against the WCAG 2.1 AA contrast guidelines and adjusted the colors so that text stays easy to read.
+- **Not relying on color alone.** Information is conveyed through text and labels as well as color.
+- **Keyboard friendly.** Every link can be reached with the keyboard and has a clearly visible focus outline.
+- **Screen reader friendly.** The page uses semantic HTML (headings, sections, lists, and landmarks) so assistive technology can navigate it in a logical order.
+
+Accessibility is ongoing work, so if you run into a barrier on the site, please let me know.
 
 ## Running it locally
 
