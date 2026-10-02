@@ -10,6 +10,7 @@ export function Hero() {
           Open to new opportunities
         </p>
         <h1 className="text-balance text-5xl font-semibold tracking-tight md:text-7xl">{profile.name}</h1>
+        <p className="-mt-3 font-mono text-sm text-primary">Now on GitHub</p>
         <p className="text-xl text-primary md:text-2xl">{profile.title}</p>
         <p className="max-w-2xl text-pretty leading-relaxed text-muted-foreground">{profile.summary}</p>
         <div className="flex flex-wrap gap-3">
