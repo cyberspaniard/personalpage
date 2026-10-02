@@ -31,9 +31,9 @@ export function Hero() {
         </div>
       </div>
 
-      <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-lg border bg-border md:grid-cols-4">
+      <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-lg border bg-border md:grid-cols-5">
         {stats.map((stat) => (
-          <div key={stat.label} className="flex flex-col gap-1 bg-background p-5">
+          <div key={stat.label} className="flex flex-col gap-1 bg-background p-5 last:col-span-2 md:last:col-span-1">
             <dt className="order-2 text-sm text-muted-foreground">{stat.label}</dt>
             <dd className="order-1 font-mono text-2xl font-semibold text-primary">{stat.value}</dd>
           </div>
