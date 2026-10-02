@@ -3,7 +3,7 @@ import { Section } from './section'
 
 export function Experience() {
   return (
-    <Section id="experience" index="01" title="Experience">
+    <Section id="experience" index="02" title="Experience">
       <ol className="flex flex-col gap-12">
         {experience.map((job) => (
           <li key={job.org} className="grid gap-4 md:grid-cols-[180px_1fr] md:gap-8">

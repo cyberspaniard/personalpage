@@ -9,8 +9,8 @@ export default function Page() {
     <div className="mx-auto max-w-5xl px-6">
       <Hero />
       <main>
-        <Experience />
         <Skills />
+        <Experience />
         <Education />
       </main>
       <Contact />
