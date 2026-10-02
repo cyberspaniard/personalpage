@@ -10,7 +10,15 @@ export function Hero() {
           Open to new opportunities
         </p>
         <h1 className="text-balance text-5xl font-semibold tracking-tight md:text-7xl">{profile.name}</h1>
-        <p className="-mt-3 font-mono text-sm text-primary">Now on GitHub</p>
+        <a
+          href={profile.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="-mt-3 inline-flex w-fit items-center gap-1 font-mono text-sm text-primary underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+        >
+          {`Now on GitHub · ${profile.githubLabel}`}
+          <ArrowUpRight className="size-3.5" aria-hidden="true" />
+        </a>
         <p className="text-xl text-primary md:text-2xl">{profile.title}</p>
         <p className="max-w-2xl text-pretty leading-relaxed text-muted-foreground">{profile.summary}</p>
         <div className="flex flex-wrap gap-3">
@@ -21,6 +29,15 @@ export function Hero() {
             className="inline-flex items-center gap-2 rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
           >
             Connect on LinkedIn
+            <ArrowUpRight className="size-4" aria-hidden="true" />
+          </a>
+          <a
+            href={profile.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-md border px-5 py-2.5 text-sm font-medium transition-colors hover:border-primary/50 hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+          >
+            View GitHub
             <ArrowUpRight className="size-4" aria-hidden="true" />
           </a>
           <a
