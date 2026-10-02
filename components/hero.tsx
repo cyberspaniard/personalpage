@@ -10,15 +10,6 @@ export function Hero() {
           Open to new opportunities
         </p>
         <h1 className="text-balance text-5xl font-semibold tracking-tight md:text-7xl">{profile.name}</h1>
-        <a
-          href={profile.github}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="-mt-3 inline-flex w-fit items-center gap-1 font-mono text-sm text-primary underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
-        >
-          {`Now on GitHub · ${profile.githubLabel}`}
-          <ArrowUpRight className="size-3.5" aria-hidden="true" />
-        </a>
         <p className="text-xl text-primary md:text-2xl">{profile.title}</p>
         <p className="max-w-2xl text-pretty leading-relaxed text-muted-foreground">{profile.summary}</p>
         <div className="flex flex-wrap gap-3">
