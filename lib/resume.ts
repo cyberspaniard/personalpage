@@ -5,6 +5,8 @@ export const profile = {
   linkedinLabel: 'linkedin.com/in/cyberspaniard',
   github: 'https://github.com/cyberspaniard/',
   githubLabel: 'github.com/cyberspaniard',
+  calendly: 'https://calendly.com/cyberspaniard',
+  calendlyLabel: 'calendly.com/cyberspaniard',
   resumeUrl:
     'https://docs.google.com/document/d/1jO_I6RGd-7Fft2GCkiNu1JdLXXHHrFV5/edit?usp=sharing&ouid=115535276284648056759&rtpof=true&sd=true',
   summary:

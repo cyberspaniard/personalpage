@@ -7,7 +7,7 @@ export function Contact() {
       <div className="flex flex-col gap-6 rounded-lg border border-primary/30 bg-accent p-8 md:p-10">
         <h2 className="text-balance text-3xl font-semibold tracking-tight">{"Let's connect"}</h2>
         <p className="max-w-xl leading-relaxed text-muted-foreground">
-          {"I'm looking for my next role in IT and cybersecurity. The best way to reach me is on LinkedIn."}
+          {"I'm looking for my next role in IT and cybersecurity. Reach me on LinkedIn, or book a time to talk on Calendly."}
         </p>
         <a
           href={profile.linkedin}
@@ -25,6 +25,16 @@ export function Contact() {
           className="-mt-3 inline-flex w-fit items-center gap-2 font-mono text-lg text-primary underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
         >
           {profile.githubLabel}
+          <ArrowUpRight className="size-5" aria-hidden="true" />
+        </a>
+        <a
+          href={profile.calendly}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="-mt-3 inline-flex w-fit items-center gap-2 font-mono text-lg text-primary underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+        >
+          {profile.calendlyLabel}
+          <span className="sr-only">(schedule a meeting, opens in a new tab)</span>
           <ArrowUpRight className="size-5" aria-hidden="true" />
         </a>
       </div>

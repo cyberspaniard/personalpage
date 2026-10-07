@@ -23,6 +23,16 @@ export function Hero() {
             <ArrowUpRight className="size-4" aria-hidden="true" />
           </a>
           <a
+            href={profile.calendly}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-md border px-5 py-2.5 text-sm font-medium transition-colors hover:border-primary/50 hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+          >
+            Schedule a meeting
+            <span className="sr-only">(opens Calendly in a new tab)</span>
+            <ArrowUpRight className="size-4" aria-hidden="true" />
+          </a>
+          <a
             href={profile.github}
             target="_blank"
             rel="noopener noreferrer"
