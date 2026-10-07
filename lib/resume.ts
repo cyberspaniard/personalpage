@@ -5,6 +5,7 @@ export const profile = {
   linkedinLabel: 'linkedin.com/in/cyberspaniard',
   github: 'https://github.com/cyberspaniard/',
   githubLabel: 'github.com/cyberspaniard',
+  resumeUrl: '',
   summary:
     'IT and Cybersecurity professional with 20 years of experience planning and executing technical initiatives and software development projects across federal and enterprise. Proven team leader managing individual contributors and multi-program portfolios spanning scope, timelines, resources, and risk. Hands-on software engineering background (Java, .NET, SQL) supports translating complex technical concepts into clear specifications and delivery plans for business stakeholders.',
 }
