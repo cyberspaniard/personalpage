@@ -53,12 +53,6 @@ export function Hero() {
               <ArrowUpRight className="size-4" aria-hidden="true" />
             </a>
           )}
-          <a
-            href="#experience"
-            className="inline-flex items-center rounded-md border px-5 py-2.5 text-sm font-medium transition-colors hover:border-primary/50 hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
-          >
-            View experience
-          </a>
         </div>
       </div>
 
