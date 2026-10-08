@@ -28,12 +28,33 @@ export const experience = [
     org: 'Naval Information Warfare Center Pacific (NIWC PAC)',
     location: 'San Diego, CA',
     period: '02/2024 – 09/2025',
-    highlights: [
-      'Developed, coordinated, and maintained Risk Management Framework (RMF) authorization packages and security compliance documentation aligned with NIST, CMMC, and OWASP requirements, supporting system Authority to Operate (ATO).',
-      'Monitored CVEs and Information Assurance Vulnerability Assessments (IAVA), ensuring required software and hardware security patches were applied and promulgated to appropriate systems.',
-      'Designed, developed, integrated, tested, and maintained a secure Java cryptographic application; performed component integration testing (CIT) and user acceptance testing (UAT).',
-      "Managed a portfolio of five DARPA cybersecurity programs (~$300K each) as Contracting Officer's Representative (COR), owning scope, timelines, resources, and risk.",
-      'Spearheaded department-wide adoption of JIRA and Agile practices as Deputy IPT Lead; mentored junior engineers and interns.',
+    sections: [
+      {
+        title: 'Cybersecurity & Compliance',
+        highlights: [
+          'Developed, coordinated, and maintained Risk Management Framework (RMF) authorization packages and security compliance documentation aligned with NIST, CMMC, and OWASP requirements, supporting system Authority to Operate (ATO).',
+          'Monitored Common Vulnerabilities and Exposures (CVE) and Information Assurance Vulnerability Assessments (IAVA), ensuring required software and hardware security patches were applied and promulgated to appropriate systems.',
+          'Ensured security requirements and practices were incorporated throughout the systems development life cycle (SDLC) for a secure Java cryptographic application, including code, testing, and configuration decisions.',
+          'Assessed systems for shortcomings related to functionality and policy compliance; developed and documented mitigation steps and corrective action plans.',
+        ],
+      },
+      {
+        title: 'Programming & Engineering',
+        highlights: [
+          'Applied advanced software engineering principles to design, develop, integrate, test, and maintain a secure Java cryptographic application; performed component integration testing (CIT) and user acceptance testing (UAT).',
+          'Used PowerShell and GitHub in support of Java-based cryptographic application testing and continuous integration/user acceptance testing (CIT/UAT), coordinating with developers to validate functionality prior to deployment.',
+          'Performed peer code reviews and supported adherence to security and maintainability standards throughout development.',
+        ],
+      },
+      {
+        title: 'Program & Project Management',
+        highlights: [
+          'Directed planning and execution of technical initiatives affecting multiple teams and business processes as Deputy IPT Lead, ensuring alignment across engineering, product, and business stakeholders.',
+          "Managed a portfolio of five DARPA cybersecurity programs (~$300K each) as Contracting Officer's Representative (COR), owning scope, timelines, resources, and risk; reviewed and approved deliverables, invoices, and travel against contract terms.",
+          'Spearheaded department-wide adoption of JIRA and Agile practices to improve delivery visibility and accountability; evaluated competing technical approaches and recommended process enhancements to management.',
+          'Mentored junior engineers and interns, assigning priorities and evaluating work products; communicated program status, financial operations, and risk to leadership through briefings, dashboards, and metrics-driven updates.',
+        ],
+      },
     ],
   },
   {
@@ -41,12 +62,35 @@ export const experience = [
     org: 'General Dynamics NASSCO',
     location: 'San Diego, CA',
     period: '10/2018 – 02/2024',
-    highlights: [
-      'Applied a security-first approach to permission models and access controls across the enterprise JIRA/Confluence platform, aligning configurations with corporate compliance and audit standards.',
-      'Configured and supported SSO/authentication integrations between Active Directory/Azure and enterprise applications (PeopleSoft HR/payroll, Jira/Confluence).',
-      'Engineered SQL and REST API integrations, stored procedures, and data models supporting an enterprise platform serving 1,000+ users.',
-      'Managed a team of 5 engineers as Team Lead and Scrum Master; executed 9 new implementations and supported 15+ projects through the full SDLC.',
-      'Directed five process improvement initiatives as a Lean Specialist that increased operational efficiency by 25–50%.',
+    sections: [
+      {
+        title: 'Cybersecurity & Compliance',
+        highlights: [
+          'Applied a security-first approach to permission models and access controls across the enterprise JIRA/Confluence platform, aligning configurations with corporate compliance and audit standards.',
+          'Vetted, installed, and governed third-party applications for platform stability, performance, and security compliance; evaluated platform reliability and security, prioritizing a corrective backlog to address technical debt and configuration drift.',
+          'Configured and supported SSO/authentication integrations between Active Directory/Azure and enterprise applications (PeopleSoft HR/payroll, Jira/Confluence), resolving login, access, and permissions issues for business stakeholders.',
+        ],
+      },
+      {
+        title: 'Programming & Engineering',
+        highlights: [
+          'Engineered SQL and REST API integrations, stored procedures, and data models supporting an enterprise platform serving 1,000+ users, integrating JIRA workflows with PeopleSoft HR and payroll systems.',
+          'Developed automation rules and ScriptRunner/Groovy scripts that eliminated manual work and improved data quality across the enterprise JIRA/Confluence platform.',
+          'Developed test strategies (CIT/UAT) ensuring data integrity and compliance across interconnected systems.',
+          'Wrote PowerShell scripts to support account administration and operational tasks, reducing manual effort on recurring IT and application-support processes.',
+          'Collaborated with new modules for an internal .NET MVC application, investigating and troubleshooting issues, and peer reviewing code.',
+        ],
+      },
+      {
+        title: 'Program & Project Management',
+        highlights: [
+          'Managed a team of 5 engineers as Team Lead and Scrum Master, facilitating Sprint Planning, Daily Stand-ups, Sprint Reviews, and Retrospectives; set priorities, coached performance, and removed impediments to keep delivery on track.',
+          'Collaborated with product owners and stakeholders across HR, payroll, finance, and operations to maintain groomed, prioritized backlogs; executed 9 new implementations and supported 15+ projects through the full SDLC.',
+          'Directed an enterprise ERP evaluation and selection as co-lead, coordinating vendor deliverables, performance expectations, and cost-benefit analysis, presenting recommendations to executive leadership.',
+          'Streamlined operations as a Lean Specialist, directing five process improvement initiatives that increased operational efficiency by 25–50%.',
+          'Created dashboards and project plans tracking delivery metrics, compliance status, and operational performance, providing timely status updates and actionable recommendations to leadership.',
+        ],
+      },
     ],
   },
   {
@@ -54,9 +98,21 @@ export const experience = [
     org: 'San Diego Metropolitan Transit System (MTS)',
     location: 'San Diego, CA',
     period: '08/2015 – 02/2018',
-    highlights: [
-      'Redesigned a core enterprise application (est. $300K) independently at no external cost using ASP.NET, JavaScript, and Bootstrap; reduced technical support demand by 50%.',
-      'Designed SSRS audit and operational reporting enabling managers, VPs, board members, and the CEO to monitor KPIs and make data-informed decisions.',
+    sections: [
+      {
+        title: 'Programming & Engineering',
+        highlights: [
+          'Redesigned a core enterprise application (est. $300K) independently at no external cost using ASP.NET, JavaScript, and Bootstrap across front-end, back-end, and database layers; reduced technical support demand by 50%.',
+          'Designed SSRS audit and operational reporting enabling managers, VPs, board members, and the CEO to monitor KPIs and make data-informed decisions.',
+        ],
+      },
+      {
+        title: 'Program & Project Management',
+        highlights: [
+          'Collaborated with stakeholders and business analysts to define business and technical requirements, translating them into technical designs, implementation plans, and process documentation.',
+          'Partnered with architects, DBAs, and infrastructure teams to deliver secure, reliable, scalable solutions compliant with enterprise standards; authored documentation and training for technical and non-technical users.',
+        ],
+      },
     ],
   },
 ]
