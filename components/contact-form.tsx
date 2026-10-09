@@ -33,7 +33,12 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-4" aria-labelledby="contact-form-heading">
+    <form
+      id="contact-form"
+      onSubmit={handleSubmit}
+      className="flex scroll-mt-8 flex-col gap-4"
+      aria-labelledby="contact-form-heading"
+    >
       <h3 id="contact-form-heading" className="text-lg font-semibold">
         Send me a message
       </h3>
